@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Science Trivia</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Mukta" rel="stylesheet">
+    <style type="text/css">
+    body {
+        background: #122E36;
+    }
+
+    .jumbotron {
+        margin: auto;
+        width: 100%;
+        height: auto;
+        background: #122E36;
+    }
+
+    h1 {
+        font-size: 60px;
+        color: #FFF;
+        word-spacing: 15px;
+        letter-spacing: 8px;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    h2, h3 {
+    	color: white;
+    	text-align: center;
+    }
+
+    .btn-success {
+	margin: 20px;
+    }
+
+    #subwrapper {
+    	text-align: center;
+    }
+
+    p {
+        color: #FFF;
+    }
+
+    img {
+        border-radius: 8px;
+       
+        height: auto;
+        width: 50%;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .icons {
+        width: 50px;
+        height: auto;
+        margin: 10px;
+        align-items: center;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="jumbotron">
+<div class="container">            
+	<h1 class="text-center">SCIENCE TRIVIA</h1>
+        </div>
+        <div class="panel-body text-center">
+            <img src="flask.png" class="icons">
+            <img src="telescope.png" class="icons">
+            <img src="orbit.png" class="icons">
+        </div>
+        </div>
+        <div id="wrapper">
+        </div>
+        <p class="text-center"><strong>You have 30 seconds to answer each science related trivia question. Click 'Start' to begin and good luck!</strong></p>
+        <div id="subwrapper">
+            <button id="start" class="btn btn-primary btn-lg" style="width: 15%; font-size: 24px"">Start</button>
+        
+        </div>
+        </div>
+</body>
+<script type="text/javascript" src="trivia.js"></script>
+
+</html>
